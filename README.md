@@ -1,3 +1,3 @@
 # Portfolio [WIP]
 
-A portfolio made with Vue.js in order to learn the framework
+A portfolio in the making made with the Bulma CSS framework.
