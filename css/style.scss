@@ -22,10 +22,15 @@ $secondary: #ff9f50;
 .intro{
     background-color: $primary ;
     height: 100vh;
+    
 }
 
 .about{
     background-color: $secondary ;
+
+    .about__text{
+        max-width: 600px;
+    }
 }
 
 
