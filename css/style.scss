@@ -31,6 +31,25 @@ $secondary: #ff9f50;
     .about__text{
         max-width: 600px;
     }
+
+    .about__technical{
+
+        .fab{
+            margin: 0 4px;
+        }
+    }
+}
+
+.footer{
+    a{
+        text-decoration: none;
+        color: $secondary;
+        transition: color 0.2s linear;
+        margin: 1rem;
+    }
+    a:hover{
+        color: $primary;
+    }
 }
 
 

@@ -17,6 +17,19 @@
 .about .about__text {
   max-width: 600px;
 }
+.about .about__technical .fab {
+  margin: 0 4px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ff9f50;
+  transition: color 0.2s linear;
+  margin: 1rem;
+}
+.footer a:hover {
+  color: #5271ff;
+}
 
 .circles {
   position: absolute;
