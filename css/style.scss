@@ -40,6 +40,22 @@ $secondary: #ff9f50;
     }
 }
 
+.projects{
+    .projects__list{
+        .item{
+
+            overflow: hidden;
+
+            width: 350px;
+            height: 350px;
+
+            margin: 5px;
+
+            //background-color: red;
+        }
+    }
+}
+
 .footer{
     a{
         text-decoration: none;

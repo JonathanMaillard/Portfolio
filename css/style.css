@@ -21,6 +21,13 @@
   margin: 0 4px;
 }
 
+.projects .projects__list .item {
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
+  margin: 5px;
+}
+
 .footer a {
   text-decoration: none;
   color: #ff9f50;
