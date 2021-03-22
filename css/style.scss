@@ -42,9 +42,14 @@ $secondary: #ff9f50;
 
 .projects{
     .projects__list{
+
+        a{
+            text-decoration: none;
+        }
         .item{
 
             overflow: hidden;
+            border-radius: 10px;
 
             width: 350px;
             height: 350px;
@@ -52,6 +57,25 @@ $secondary: #ff9f50;
             margin: 5px;
 
             //background-color: red;
+            position: relative;
+
+            .item__image{
+                position: absolute;
+                z-index: 0;
+                top: 0;
+                left: 0;
+            }
+            .item__info{
+                z-index: 1;
+                position: absolute;
+                //top: 0;
+                //left: 0;
+
+                width: 350px;
+                height: 350px;
+
+                background-color: rgba(255, 159, 80, 0.9);
+            }
         }
     }
 }
