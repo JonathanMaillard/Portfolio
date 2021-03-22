@@ -50,6 +50,7 @@ $secondary: #ff9f50;
 
             overflow: hidden;
             border-radius: 10px;
+            border: $secondary 2px solid;
 
             width: 350px;
             height: 350px;
@@ -68,13 +69,18 @@ $secondary: #ff9f50;
             .item__info{
                 z-index: 1;
                 position: absolute;
-                //top: 0;
+                top: -350px;
                 //left: 0;
 
                 width: 350px;
                 height: 350px;
 
                 background-color: rgba(255, 159, 80, 0.9);
+
+                transition: top 0.4s ease-in-out;
+            }
+            &:hover .item__info{
+                top:0;
             }
         }
     }

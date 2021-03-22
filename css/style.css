@@ -27,6 +27,7 @@
 .projects .projects__list .item {
   overflow: hidden;
   border-radius: 10px;
+  border: #ff9f50 2px solid;
   width: 350px;
   height: 350px;
   margin: 5px;
@@ -41,9 +42,14 @@
 .projects .projects__list .item .item__info {
   z-index: 1;
   position: absolute;
+  top: -350px;
   width: 350px;
   height: 350px;
   background-color: rgba(255, 159, 80, 0.9);
+  transition: top 0.4s ease-in-out;
+}
+.projects .projects__list .item:hover .item__info {
+  top: 0;
 }
 
 .footer a {
