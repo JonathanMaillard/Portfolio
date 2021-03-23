@@ -47,13 +47,19 @@
 
             <div class="is-flex is-flex-direction-column is-align-items-center mb-6">
 
-                <div class="about__title container is-fluid has-text-centered mb-6">
+                <div class="about__title container is-fluid has-text-centered mb-6"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                >
 
                     <h1 class="title has-text-white">About <span class="primary">Me</span></h1>
                     
                 </div>
 
-                <div class="about__text has-text-centered has-text-white is-size-5 is-italic">
+                <div class="about__text has-text-centered has-text-white is-size-5 is-italic"
+                data-aos="fade-up"
+                data-aos-easing="ease-in-out"
+                >
                     <p>Young developer passionate about code and eager to learn everyday. 
                     I think there is a solution to every problems and I'm always excited by new challenges.
                     When not coding, I enjoy videogames, movies and music.</p>
@@ -63,8 +69,8 @@
 
             <div class="columns has-text-centered has-text-white">
 
-                <div class="column">
-                    <h3 class="primary is-size-4 has-text-weight-medium">Technical Skills</h3>
+                <div class="column" data-aos="fade-down-right" data-aos-easing="ease-in-out">
+                    <h3 class="primary is-size-4 has-text-weight-medium mb-5">Technical Skills</h3>
 
                     <div class="about__technical is-size-1">
                         <i class="fab fa-html5"></i>
@@ -77,8 +83,8 @@
                     </div>
                 </div>
 
-                <div class="column">
-                    <h3 class="primary is-size-4 has-text-weight-medium">Soft Skills</h3>
+                <div class="column" data-aos="fade-down-left" data-aos-delay="250" data-aos-easing="ease-in-out">
+                    <h3 class="primary is-size-4 has-text-weight-medium mb-5">Soft Skills</h3>
 
                     <div class="columns is-size-5">
                         <div class="column">Reliable</div>
@@ -97,13 +103,13 @@
 
     <section class="section projects">
 
-        <div class="container is-fluid has-text-centered">
+        <div class="container is-fluid has-text-centered is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
 
-            <h1 class="title secondary">Projects</h1>
+            <h1 class="title secondary" data-aos="fade-up" data-aos-easing="ease-in-out">Projects</h1>
 
             <div class="projects__list is-flex is-align-items-center is-justify-content-center is-flex-wrap-wrap">
                 
-                <a href="https://github.com/JonathanMaillard/Mwenbwa" target="_blank">
+                <a href="https://github.com/JonathanMaillard/Mwenbwa" target="_blank" data-aos="fade-up-right">
                     <div class="item">
                         <div class="item__image">
                             <img src="./img/mwenbwa.jpg" alt="Mwenbwa project screenshot">
@@ -117,7 +123,7 @@
                     </div>
                 </a>
 
-                <a href="https://github.com/JonathanMaillard/Forum" target="_blank">
+                <a href="https://github.com/JonathanMaillard/Forum" target="_blank" data-aos="fade-up-left" data-aos-delay="250">
                     <div class="item">
                         <div class="item__image">
                             <img src="./img/forum.jpg" alt="Forum project screenshot">
@@ -131,7 +137,7 @@
                     </div>
                 </a>
 
-                <a href="https://github.com/JonathanMaillard/museum-project" target="_blank">
+                <a href="https://github.com/JonathanMaillard/museum-project" target="_blank" data-aos="fade-up-right">
                     <div class="item">
                         <div class="item__image">
                             <img src="./img/museum.jpg" alt="Museum project screenshot">
@@ -145,7 +151,7 @@
                     </div>
                 </a>
 
-                <a href="https://github.com/JonathanMaillard/cms-restaurants" target="_blank">
+                <a href="https://github.com/JonathanMaillard/cms-restaurants" target="_blank" data-aos="fade-up-left" data-aos-delay="250">
                     <div class="item">
                         <div class="item__image">
                             <img src="./img/restaurant.jpg" alt="Restaurant project screenshot">
@@ -159,6 +165,20 @@
                     </div>
                 </a>
 
+                <a href="https://codepen.io/collection/nrbkqQ" target="_blank" data-aos="fade-up-right">
+                    <div class="item">
+                        <div class="item__image">
+                            <img src="./img/architect.jpg" alt="Dribble challenges screenshot">
+                        </div>
+                        <div class="item__info is-flex is-align-items-center is-justify-content-center">
+                            <div class="has-text-white">
+                                <h4 class="title is-size-4 primary">Dribble Challenges</h4>
+                                <p>A Codepen collection of small CSS challenges</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
             </div>
 
             
@@ -167,11 +187,16 @@
 
     </section>
 
-    <footer class="footer is-flex is-justify-content-center is-size-3">
-        <a href="https://www.linkedin.com/in/jonathan-maillard/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/JonathanMaillard" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://codepen.io/Jona19952" target="_blank"><i class="fab fa-codepen"></i></a>
-        <a href="mailto:jonathan_maillard@hotmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    <footer class="footer">
+        <div class="footer_links is-flex is-justify-content-center is-size-3">
+            <a href="https://www.linkedin.com/in/jonathan-maillard/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/JonathanMaillard" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://codepen.io/Jona19952" target="_blank"><i class="fab fa-codepen"></i></a>
+            <a href="mailto:jonathan_maillard@hotmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="footer__copy secondary">
+            Designed by <span class="has-text-weight-medium">Jonathan Maillard</span>
+        </div>
     </footer>
 
 

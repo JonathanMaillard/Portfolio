@@ -1,7 +1,10 @@
 //Colors
 
-$primary: #5271ff;
-$secondary: #ff9f50;
+//$primary: #4193FF;
+//$secondary: #FF8C3D;
+
+$primary: #0A64C9;
+$secondary: #FF8401;
 
 //Mixins
 
@@ -43,6 +46,8 @@ $secondary: #ff9f50;
 .projects{
     .projects__list{
 
+        max-width: 800px;
+
         a{
             text-decoration: none;
         }
@@ -70,7 +75,8 @@ $secondary: #ff9f50;
                 z-index: 1;
                 position: absolute;
                 top: -350px;
-                //left: 0;
+                
+                padding: 10px;
 
                 width: 350px;
                 height: 350px;

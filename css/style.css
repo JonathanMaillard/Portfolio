@@ -1,18 +1,18 @@
 .primary {
-  color: #5271ff;
+  color: #0A64C9;
 }
 
 .secondary {
-  color: #ff9f50;
+  color: #FF8401;
 }
 
 .intro {
-  background-color: #5271ff;
+  background-color: #0A64C9;
   height: 100vh;
 }
 
 .about {
-  background-color: #ff9f50;
+  background-color: #FF8401;
 }
 .about .about__text {
   max-width: 600px;
@@ -21,13 +21,16 @@
   margin: 0 4px;
 }
 
+.projects .projects__list {
+  max-width: 800px;
+}
 .projects .projects__list a {
   text-decoration: none;
 }
 .projects .projects__list .item {
   overflow: hidden;
   border-radius: 10px;
-  border: #ff9f50 2px solid;
+  border: #FF8401 2px solid;
   width: 350px;
   height: 350px;
   margin: 5px;
@@ -43,6 +46,7 @@
   z-index: 1;
   position: absolute;
   top: -350px;
+  padding: 10px;
   width: 350px;
   height: 350px;
   background-color: rgba(255, 159, 80, 0.9);
@@ -54,12 +58,12 @@
 
 .footer a {
   text-decoration: none;
-  color: #ff9f50;
+  color: #FF8401;
   transition: color 0.2s linear;
   margin: 1rem;
 }
 .footer a:hover {
-  color: #5271ff;
+  color: #0A64C9;
 }
 
 .circles {
