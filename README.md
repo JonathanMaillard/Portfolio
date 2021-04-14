@@ -1,5 +1,5 @@
-# Portfolio [WIP]
+# Portfolio
 
-A portfolio in the making made with the Bulma CSS framework.
+A simple portfolio made with the Bulma CSS framework.
 
 LINK: https://jonathanmaillard.github.io/Portfolio/
